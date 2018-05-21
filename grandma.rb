@@ -1,6 +1,6 @@
 def speak_to_grandma(phrase)  
   # Check if string equals same phrase all upper case letters, which means string is all uppercase
-  if phrase !== phrase.upcase 
+  if phrase == phrase.upcase 
     # return this string if condition is true 
     puts "HUH?! SPEAK UP, SONNY!"
   elsif phrase == "I LOVE YOU GRANDMA!"
